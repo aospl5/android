@@ -23,7 +23,8 @@
 
   <project path="android" name="temasek/android" remote="github" revision="cm-12.0" />
 
-  <!-- START of temasek -->
+  <!-- START of temasek --> 
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-5.0" />
   <project path="frameworks/base" name="temasek/android_frameworks_base" remote="github" revision="cm-12.0" />
   <project path="frameworks/native" name="temasek/android_frameworks_native" remote="github" revision="cm-12.0" />
   <project path="packages/apps/Settings" name="temasek/android_packages_apps_Settings" remote="github" revision="cm-12.0" />
@@ -70,7 +71,6 @@
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <!--<project path="art" name="CyanogenMod/android_art" groups="pdk" />-->
   <!--<project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />-->
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
